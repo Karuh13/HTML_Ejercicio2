@@ -4,25 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Issuu.css">
     <title>Issuu</title>
 </head>
 <body>
-    <header>
-        <div>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Issuu_logo.svg/1280px-Issuu_logo.svg.png" alt="Logo Issuu">
-            <aside>
-                <p>Already a user?</p>
-                <a href="Issuu.html">Sign in</a>
-            </aside>
-        </div>
+    <header class="header">
+        <img class="logo-header" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Issuu_logo.svg/1280px-Issuu_logo.svg.png" alt="Logo Issuu">
+        <aside>
+            <p>Already a user?</p>
+            <a href="Issuu.html">Sign in</a>
+        </aside>
     </header>
     <main>
         <div>
             <section>
                 <h1>Create an Issuu Account</h1>
                 <div>
-
+                    <a href="Issuu.html">
+                        <img src="https://place-hold.it/40x40" alt="Icono Google">
+                        <span>Sign in with Google</span>
+                    </a>
+                    <a href="Issuu.html">
+                        <img src="https://place-hold.it/40x40" alt="Icono Facebook">
+                        <span>Continue with Facebook</span>
+                    </a>
                 </div>
                 <p>or with email</p>
             </section>
@@ -32,11 +37,17 @@
                         <p>Email</p>
                         <input type="email" name="email" required>
                     </label>
+                    <br>
+                    <br>
                     <label>
                         <p>Password</p>
                         <input type="password" name="password" required>
                     </label>
-                    <input type="checkbox" name="accept-terms">
+                    <label>
+                        <input type="checkbox" name="accept-terms">
+                        I accept the <a href="Issuu.html">Terms of Service</a> and the <a href="Issuu.html">Professional Terms of Service</a>.
+                    </label>
+                    
                     <input type="submit" value="Create Account">
                 </form>
             </section>
